@@ -79,19 +79,9 @@ The TF-IDF implementation follows these steps:
 - Rank sentences based on their combined term scores
 - Select the top N sentences with the highest scores
 
-### BERT2BERT Model
-
-The summarization model uses:
-- "cahya/bert2bert-indonesian-summarization" - an encoder-decoder model fine-tuned specifically for Indonesian summarization
-- Custom generation parameters to control summary length and quality
-
-
 ## Future Improvements
 
 - Add support for PDF document summarization
 - Implement keyword extraction
 - Create a batch processing mode for multiple articles
-- Add multi-language support
-- Integrate with news APIs for direct access to news sources
-
 
